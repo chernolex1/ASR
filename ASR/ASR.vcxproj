@@ -139,9 +139,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ASR.cpp" />
+    <ClCompile Include="TGameBase.cpp" />
     <ClCompile Include="TSimpleDisplay.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="TGameBase.h" />
     <ClInclude Include="IDisplay.h" />
     <ClInclude Include="TSimpleDisplay.h" />
   </ItemGroup>

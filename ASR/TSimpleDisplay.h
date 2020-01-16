@@ -8,6 +8,6 @@ namespace ASRGame {
 		public IDisplay
 	{
 	public:
-		void DrawState(std::string& state) override;
+		void DrawState(std::string& state) const override;
 	};
 }

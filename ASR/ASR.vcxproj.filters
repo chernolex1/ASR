@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\Display">
+      <UniqueIdentifier>{5bc0a36d-49b5-4261-b67f-78b03320a64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Display">
+      <UniqueIdentifier>{81594928-10d3-41bf-afcd-743ba894ad71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Mechanics">
+      <UniqueIdentifier>{d1e35a7c-88cc-4f02-9aec-fe24cdf96270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mechanics">
+      <UniqueIdentifier>{2e13c821-7f56-4c77-9224-14318d52d116}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ASR.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
+    <ClCompile Include="TSimpleDisplay.cpp">
+      <Filter>Исходные файлы\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameBase.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDisplay.h">
+      <Filter>Файлы заголовков\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="TSimpleDisplay.h">
+      <Filter>Файлы заголовков\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,12 +2,12 @@
 
 #include "IDisplay.h"
 #include "TSimpleDisplay.h"
+#include "TGameBase.h"
 
 int main()
 {
 	ASRGame::TSimpleDisplay display;
+	ASRGame::TGameBase gameBase(display);
 
-	std::string state = "State";
-
-	display.DrawState(state);
+	gameBase.DrawGameState();
 }
